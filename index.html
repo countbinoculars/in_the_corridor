@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>In the Corridor</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #eee;
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #444;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+      margin-bottom: 2rem;
+    }
+
+    .prose {
+      max-width: 600px;
+      font-size: 1.2rem;
+      line-height: 1.7;
+    }
+
+    .prose::first-letter {
+      font-size: 2.5rem;
+      float: left;
+      line-height: 1;
+      padding-right: 0.2rem;
+      color: #ccc;
+    }
+
+    @media (prefers-color-scheme: light) {
+      body {
+        background-color: #fafafa;
+        color: #222;
+      }
+      img {
+        border: 1px solid #bbb;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+    }
+  </style>
+</head>
+<body>
+  <img src="corridor_eye.png" alt="Forgotten corridor with glass eye and letter">
+  <div class="prose">
+    In the setback of an empty corridor, sullen and long deprived of footsteps, a forgotten glass eye sits under the wainscoting next to a letter still sealed and addressed in a faded and nervous hand to a Madame Schildkröte, though no one remembers who that could possibly be.
+  </div>
+</body>
+</html>
+
